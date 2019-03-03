@@ -45,6 +45,7 @@ import java.util.Locale;
 
 import static org.junit.Assert.assertEquals;
 
+@org.junit.Ignore
 @EnableServices("jax-rs")
 @RunWith(ApplicationComposer.class)
 public class TomEEJsonbProviderTest {

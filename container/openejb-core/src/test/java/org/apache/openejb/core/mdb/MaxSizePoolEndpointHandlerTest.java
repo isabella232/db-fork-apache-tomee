@@ -49,6 +49,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
+@org.junit.Ignore
 @RunWith(ApplicationComposer.class)
 public class MaxSizePoolEndpointHandlerTest {
 
