@@ -239,6 +239,14 @@
           <groupId>org.apache.felix</groupId>
           <artifactId>maven-bundle-plugin</artifactId>
           <version>${maven-bundle-plugin.version}</version>
+<configuration>
+    <archive>
+    <addMavenDescriptor>false</addMavenDescriptor>
+    </archive> 
+    <instructions combine.children="append">   
+      <_removeheaders>Bnd-LastModified</_removeheaders>
+    </instructions>
+</configuration>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
