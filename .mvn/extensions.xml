@@ -1,0 +1,7 @@
+<extensions>
+        <extension>
+                <groupId>com.gradle</groupId>
+                <artifactId>gradle-enterprise-maven-extension</artifactId>
+                <version>1.0.2-20190306082525-release</version>
+        </extension>
+</extensions>
