@@ -331,7 +331,6 @@
             -Dopenejb.descriptors.output.folder=./dump/
             -Dorg.apache.activemq.SERIALIZABLE_PACKAGES=org,java
           </argLine>
-          <workingDirectory>${project.basedir}/target</workingDirectory>
           <systemPropertyVariables>
             <openejb.home>${project.basedir}/target/test-classes</openejb.home>
           </systemPropertyVariables>

@@ -80,7 +80,6 @@
           <systemPropertyVariables>
             <openejb.home>${project.build.directory}/test-classes</openejb.home>
           </systemPropertyVariables>
-          <basedir>${project.build.directory}</basedir>
         </configuration>
       </plugin>
     </plugins>
