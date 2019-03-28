@@ -4,9 +4,10 @@
   </server>
   <buildCache>
     <local>
-      <enabled>false</enabled>
+      <enabled>${env.LOCAL_BUILD_CACHE_ENABLED}</enabled>
     </local>
     <remote>
+      <enabled>${env.REMOTE_BUILD_CACHE_ENABLED}</enabled>
       <storeEnabled>true</storeEnabled>
       <server>
         <url>https://${env.BUILD_CACHE_USERNAME}:${env.BUILD_CACHE_PASSWORD}@${env.BUILD_CACHE_SERVER}</url>
