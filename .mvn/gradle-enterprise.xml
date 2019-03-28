@@ -1,0 +1,16 @@
+<gradleEnterprise>
+  <server>
+    <url>${env.GE_URL}</url>
+  </server>
+  <buildCache>
+    <local>
+      <enabled>false</enabled>
+    </local>
+    <remote>
+      <storeEnabled>true</storeEnabled>
+      <server>
+        <url>https://${env.BUILD_CACHE_USERNAME}:${env.BUILD_CACHE_PASSWORD}@${env.BUILD_CACHE_SERVER}</url>
+      </server>
+    </remote>
+  </buildCache>
+</gradleEnterprise>
