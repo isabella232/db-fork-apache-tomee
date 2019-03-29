@@ -20,6 +20,7 @@ import org.apache.openejb.loader.provisining.MavenResolver;
 import org.apache.openejb.loader.provisining.ProvisioningResolver;
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.File;
@@ -33,6 +34,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 // needs http to work
+@Ignore
 public class ProvisioningUtilTest {
     @Before
     public void init() throws Exception {
